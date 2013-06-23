@@ -60,7 +60,7 @@
    "provides" : {
       "Module::Build::XSUtil" : {
          "file" : "lib/Module/Build/XSUtil.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -74,7 +74,7 @@
          "web" : "https://github.com/hideo55/Module-Build-XSUtil"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "hideo55 <hide.o.j55@gmail.com>"
    ]
