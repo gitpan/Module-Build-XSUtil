@@ -6,7 +6,7 @@ use Config;
 use Module::Build;
 our @ISA = qw(Module::Build);
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 __PACKAGE__->add_property( 'ppport_h_path'   => undef );
 __PACKAGE__->add_property( 'xshelper_h_path' => undef );
@@ -193,14 +193,14 @@ sub _cc_warnings {
         my $gccversion = $self->_gcc_version();
         if ( $gccversion >= 4.0 ) {
             push @flags, qw(-Wextra);
-            if ( !( $args->{c99} or $args->{'c++'} ) ) {
+            if ( !( $args->{needs_compiler_c99} or $args->{needs_compiler_cpp} ) ) {
 
                 # Note: MSVC++ doesn't support C99,
                 # so -Wdeclaration-after-statement helps
                 # ensure C89 specs.
                 push @flags, qw(-Wdeclaration-after-statement);
             }
-            if ( $gccversion >= 4.1 && !$args->{'c++'} ) {
+            if ( $gccversion >= 4.1 && !$args->{needs_compiler_cpp} ) {
                 push @flags, qw(-Wc++-compat);
             }
         }
