@@ -6,7 +6,7 @@ use Config;
 use Module::Build;
 our @ISA = qw(Module::Build);
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 __PACKAGE__->add_property( 'ppport_h_path'   => undef );
 __PACKAGE__->add_property( 'xshelper_h_path' => undef );
@@ -426,7 +426,7 @@ If invoke Build.PL with '-g' option, It will build with debug options.
 
 =back
 
-=head1 SEE ALOS
+=head1 SEE ALSO
 
 L<Module::Install::XSUtil>
 

@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.4005
 dynamic_config: 0
-generated_by: 'Minilla/v0.6.8, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,10 +24,11 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Module::Build::XSUtil:
     file: lib/Module/Build/XSUtil.pm
-    version: 0.05
+    version: 0.06
 requires:
   Devel::CheckCompiler: 0.02
   Devel::PPPort: 3.19
@@ -42,7 +43,7 @@ resources:
   bugtracker: https://github.com/hideo55/Module-Build-XSUtil/issues
   homepage: https://github.com/hideo55/Module-Build-XSUtil
   repository: git://github.com/hideo55/Module-Build-XSUtil.git
-version: 0.05
+version: 0.06
 x_contributors:
   - 'tokuhirom <tokuhirom@gmail.com>'
   - 'hideo55 <hide.o.j55@gmail.com>'
