@@ -31,7 +31,7 @@ no_index:
 provides:
   Module::Build::XSUtil:
     file: lib/Module/Build/XSUtil.pm
-    version: 0.07
+    version: 0.08
 requires:
   Devel::CheckCompiler: 0.02
   Devel::PPPort: 3.19
@@ -46,7 +46,7 @@ resources:
   bugtracker: https://github.com/hideo55/Module-Build-XSUtil/issues
   homepage: https://github.com/hideo55/Module-Build-XSUtil
   repository: git://github.com/hideo55/Module-Build-XSUtil.git
-version: 0.07
+version: 0.08
 x_contributors:
   - 'tokuhirom <tokuhirom@gmail.com>'
-  - 'hideo55 <hide.o.j55@gmail.com>'
+  - 'Hideaki Ohno <hide.o.j55@gmail.com>'
