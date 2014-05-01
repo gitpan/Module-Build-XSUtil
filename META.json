@@ -67,7 +67,7 @@
    "provides" : {
       "Module::Build::XSUtil" : {
          "file" : "lib/Module/Build/XSUtil.pm",
-         "version" : "0.08"
+         "version" : "0.09"
       }
    },
    "release_status" : "stable",
@@ -81,9 +81,9 @@
          "web" : "https://github.com/hideo55/Module-Build-XSUtil"
       }
    },
-   "version" : "0.08",
+   "version" : "0.09",
    "x_contributors" : [
       "tokuhirom <tokuhirom@gmail.com>",
-      "Hideaki Ohno <hide.o.j55@gmail.com>"
+      "hideo55 <hide.o.j55@gmail.com>"
    ]
 }
