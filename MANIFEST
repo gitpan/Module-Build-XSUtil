@@ -14,4 +14,5 @@ eg/Foo/t/basic.t
 eg/Foo/typemap
 lib/Module/Build/XSUtil.pm
 t/00_compile.t
+t/01_build.t
 META.yml

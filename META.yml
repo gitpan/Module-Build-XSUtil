@@ -3,16 +3,18 @@ abstract: 'A Module::Build class for building XS modules'
 author:
   - ':'
 build_requires:
-  Cwd: 0
-  File::Spec: 0
-  IPC::Open3: 0
+  Capture::Tiny: 0
+  Cwd::Guard: 0
+  File::Copy::Recursive: 0
+  File::Spec::Functions: 0
+  File::Temp: 0
   Test::More: 0.98
 configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.4005
 dynamic_config: 0
-generated_by: 'Minilla/v0.14.1, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.15.2, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -31,7 +33,7 @@ no_index:
 provides:
   Module::Build::XSUtil:
     file: lib/Module/Build/XSUtil.pm
-    version: 0.09
+    version: 0.10
 requires:
   Devel::CheckCompiler: 0.02
   Devel::PPPort: 3.19
@@ -46,7 +48,7 @@ resources:
   bugtracker: https://github.com/hideo55/Module-Build-XSUtil/issues
   homepage: https://github.com/hideo55/Module-Build-XSUtil
   repository: git://github.com/hideo55/Module-Build-XSUtil.git
-version: 0.09
+version: 0.10
 x_contributors:
   - 'tokuhirom <tokuhirom@gmail.com>'
   - 'hideo55 <hide.o.j55@gmail.com>'

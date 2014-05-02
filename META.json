@@ -4,7 +4,7 @@
       ":"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.14.1",
+   "generated_by" : "Minilla/v0.15.2",
    "license" : [
       "perl_5"
    ],
@@ -57,9 +57,11 @@
       },
       "test" : {
          "requires" : {
-            "Cwd" : "0",
-            "File::Spec" : "0",
-            "IPC::Open3" : "0",
+            "Capture::Tiny" : "0",
+            "Cwd::Guard" : "0",
+            "File::Copy::Recursive" : "0",
+            "File::Spec::Functions" : "0",
+            "File::Temp" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -67,7 +69,7 @@
    "provides" : {
       "Module::Build::XSUtil" : {
          "file" : "lib/Module/Build/XSUtil.pm",
-         "version" : "0.09"
+         "version" : "0.10"
       }
    },
    "release_status" : "stable",
@@ -81,7 +83,7 @@
          "web" : "https://github.com/hideo55/Module-Build-XSUtil"
       }
    },
-   "version" : "0.09",
+   "version" : "0.10",
    "x_contributors" : [
       "tokuhirom <tokuhirom@gmail.com>",
       "hideo55 <hide.o.j55@gmail.com>"
