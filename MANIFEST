@@ -13,6 +13,7 @@ eg/Foo/lib/Foo.xs
 eg/Foo/t/basic.t
 eg/Foo/typemap
 lib/Module/Build/XSUtil.pm
+minil.tmol
 t/00_compile.t
 t/01_build.t
 META.yml
