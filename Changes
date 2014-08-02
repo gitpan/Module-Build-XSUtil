@@ -1,5 +1,8 @@
 Revision history for Perl extension Module-Build-XSHelper
 
+0.12 2014-08-02T13:57:10Z
+    - Add C++11 support
+
 0.11_01 2014-06-14T14:36:33Z
     - Add diag message for test
 
